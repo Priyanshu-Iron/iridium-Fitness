@@ -1,16 +1,15 @@
 import React from 'react'
 import { Box } from '@mui/material'
 
-import Exercises from '../components/Exercises'
-import HeroBanner from '../components/HeroBanner'
-import SearchExercises from '../components/SearchExercises'
+import Navbar from '../components/NavBar/Navbar'
 
 const Home = () => {
   return (
     <Box>
-      <HeroBanner/>
-      <SearchExercises/>
-      <Exercises/>
+      <video autoPlay muted loop id='bgVideo'>
+        <source src={require('../assets/images/5320001-uhd_3840_2160_25fps.mp4')} type='video/mp4' />
+      </video>
+      <Navbar/>
     </Box>
   )
 }
