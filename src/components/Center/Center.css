@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+@font-face {
+    font-family: 'Mission';
+    src: url('../Center/Mission\ X.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.oxanium-H3Text {
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.noto-sans-kr-koreantext {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#main{
+    text-align: center;
+    margin-top: 70px;
+    z-index: 100000;
+}
+
+.MiddleHeadingMain{
+    color: #B8001F;
+    font-size: 4rem;
+    font-family: 'Mission';
+    letter-spacing: 10px;
+    border: 8px solid #B8001F;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 25px;
+    display: inline-block;
+    padding-left: 27px;
+    padding-right: 25px;
+    backdrop-filter: blur(15px);
+}
+
+.MiddleHeadingMain:hover{
+    color: #fff;
+}
+
+.MiddleHeadingLine1{
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #B8001F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.MiddleHeadingLine2{
+    font-family: "Oxanium", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #B8001F;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-decoration-color: #B8001F;
+    padding-top: 20px;
+}
+
+#Line1:hover{
+    color: #fff;
+}
+
+.MiddleHeadingLine2:hover{
+    /* color: #fff; */
+    /* text-decoration: underline; */
+    text-decoration-color: #fff;
+}
