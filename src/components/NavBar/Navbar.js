@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navBar"> {/* Change class to className */}
+        <nav className="navBar">
             <a href="#top" id="logo">Erredium</a>
 
             <ul id="navLinks" className={isOpen ? 'open' : ''}>
@@ -22,9 +22,9 @@ const Navbar = () => {
             </ul>
 
             <div className="burger" onClick={toggleMenu} aria-expanded={isOpen} aria-controls="navLinks">
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
+                <div className={isOpen ? 'line1 open' : 'line1'}></div>
+                <div className={isOpen ? 'line2 open' : 'line2'}></div>
+                <div className={isOpen ? 'line3 open' : 'line3'}></div>
             </div>
         </nav>
     );
