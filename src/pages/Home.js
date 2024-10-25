@@ -4,6 +4,7 @@ import { Box } from '@mui/material'
 import Navbar from '../components/NavBar/Navbar'
 import Center from '../components/Center/Center'
 import ClassPrograms from '../components/Class_Programs/ClassPrograms'
+import Membership from '../components/Membership/Membership'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar/>
       <Center/>
       <ClassPrograms/>
+      <Membership/>
     </Box>
   )
 }
