@@ -80,3 +80,59 @@
     /* text-decoration: underline; */
     text-decoration-color: #fff;
 }
+
+@media (max-width:768px) {
+    .MiddleHeadingMain{
+        color: #B8001F;
+        font-size: 1.4rem;
+        font-family: 'Mission';
+        letter-spacing: 10px;
+        border: 8px solid #B8001F;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-top: 25px;
+        display: inline-block;
+        padding-left: 27px;
+        padding-right: 25px;
+        backdrop-filter: blur(15px);
+        padding-bottom: 13px;
+    }
+
+    .MiddleHeadingMain:hover{
+        color: #fff;
+    }
+    
+    .MiddleHeadingLine1{
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #B8001F;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .MiddleHeadingLine2{
+        font-family: "Oxanium", sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #B8001F;
+        letter-spacing: 10px;
+        text-decoration: underline;
+        text-decoration-color: #B8001F;
+        padding-top: 50px;
+    }
+    
+    #Line1:hover{
+        color: #fff;
+    }
+    
+    .MiddleHeadingLine2:hover{
+        /* color: #fff; */
+        /* text-decoration: underline; */
+        text-decoration-color: #fff;
+    }
+}
