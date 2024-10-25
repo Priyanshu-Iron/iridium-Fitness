@@ -3,6 +3,7 @@ import { Box } from '@mui/material'
 
 import Navbar from '../components/NavBar/Navbar'
 import Center from '../components/Center/Center'
+import ClassPrograms from '../components/Class_Programs/ClassPrograms'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       </video>
       <Navbar/>
       <Center/>
+      <ClassPrograms/>
     </Box>
   )
 }
