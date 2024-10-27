@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.oxanium-H3Text {
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.MembershipPlansContent{
+    display: flex;
+    flex-direction: row;
+}
+
+#MembershipPlanstitle{
+    font-family: "Oxanium", sans-serif;
+    color: #0D92F4;
+    margin-top: 70px;
+    padding-left: 20px;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+#MembershipPlansHeading{
+    font-family: "Oxanium", sans-serif;
+    color: #507687;
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 2rem;
+}
+
+.MembershipPlansDetails{
+    padding: 10px 40px 0;
+    font-family: "Oxanium", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#Price{
+    color: #B8001F;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#Price1{
+    color: #B8001F;
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 60px;
+    margin-left: 160px;
+}
+
+
+#PriceButton{
+    font-family: "Oxanium", sans-serif;
+    background-color: #fff;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+    color: #B8001F;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+#PriceButton:hover{
+    background-color: #B8001F;
+    color: #fff;
+}
