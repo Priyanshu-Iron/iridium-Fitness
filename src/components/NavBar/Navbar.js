@@ -14,8 +14,8 @@ const Navbar = () => {
 
             <ul id="navLinks" className={isOpen ? 'open' : ''}>
                 <li><a href="#Home" id="links">Home</a></li>
-                <li><a href="#Classes/Programs" id="links">Classes/Programs</a></li>
-                <li><a href="#Membership Plans" id="links">Membership Plans</a></li>
+                <li><a href="#ClassPrograms" id="links">Classes/Programs</a></li>
+                <li><a href="#MembershipPlans" id="links">Membership Plans</a></li>
                 <li><a href="#Trainers" id="links">Trainers</a></li>
                 <li><a href="#Contact" id="links">Contact</a></li>
                 <li><a href="#About Us" id="links">About Us</a></li>

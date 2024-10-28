@@ -3,7 +3,7 @@ import '../Membership/Membership.css'
 
 const Membership = () => {
   return (
-    <div className='MembershipPlans'>
+    <div id='MembershipPlans' className='MembershipPlans'>
       <h1 id='MembershipPlanstitle'>Membership/Plans</h1>
       <div className='MembershipStart'>
         <h2 id='MembershipPlansHeading'>1. Basic Membership</h2>
